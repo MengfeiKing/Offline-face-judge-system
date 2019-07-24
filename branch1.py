@@ -3,13 +3,12 @@ import cv2
 import numpy as np
 import time
 
-video_capture = cv2.VideoCapture(0)
+video_capture = cv2.VideoCapture(1)
 
 known_face_encodings = np.load('./DataSpace/TxtData/known_face_encodings.npy')
 known_face_encodings = np.array(known_face_encodings)
 f = open('./DataSpace/TxtData/known_face_names.txt','r')
 known_face_names=f.readlines()
-
 face_locations = []
 face_encodings = []
 face_names = []
@@ -43,9 +42,11 @@ while True:
         localtime = time.asctime(time.localtime(time.time()))
         if name != "Unknown":
             name.strip('\n')
+            name.strip('\n')
             print(localtime,"  ",name,"已被识别")
         else:
             print(localtime, "  识别到未知人脸")
+        time.sleep(1)
     cv2.imshow('Video', frame)
     if cv2.waitKey(1) & 0xFF == ord('Q'):
         break
