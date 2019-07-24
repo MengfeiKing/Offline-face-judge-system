@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0e963c6-6260-49d2-b3ad-55137949efad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSpace/TxtData/known_face_encodings.npy" beforeDir="false" afterPath="$PROJECT_DIR$/DataSpace/TxtData/known_face_encodings.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSpace/TxtData/known_face_names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DataSpace/TxtData/known_face_names.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/branch1.py" beforeDir="false" afterPath="$PROJECT_DIR$/branch1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_mode.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_mode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/date_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/date_init.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,20 +93,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Python Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python Program" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -223,7 +205,7 @@
       <workItem from="1563932402159" duration="44000" />
       <workItem from="1563932677431" duration="1228000" />
       <workItem from="1563935034520" duration="5498000" />
-      <workItem from="1563947854274" duration="6110000" />
+      <workItem from="1563947854274" duration="6219000" />
     </task>
     <task id="LOCAL-00001" summary="完成了从视频流中提取人脸">
       <created>1563856681954</created>
@@ -246,11 +228,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563870832705</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="建立了基本数据库指令，可以添加或删除已知人员">
+      <created>1563954173997</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563954173997</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38238000" />
+    <option name="totallyTimeSpent" value="38347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -261,7 +250,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.4918033" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.4918033" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,7 +298,8 @@
     <MESSAGE value="完成了从视频流中提取人脸" />
     <MESSAGE value="尝试从data中恢复数据" />
     <MESSAGE value="建立了读取数据的方法，人脸关键点采用numpy封包保存，姓名用txt保存，与MySQL的连接尚未建立" />
-    <option name="LAST_COMMIT_MESSAGE" value="建立了读取数据的方法，人脸关键点采用numpy封包保存，姓名用txt保存，与MySQL的连接尚未建立" />
+    <MESSAGE value="建立了基本数据库指令，可以添加或删除已知人员" />
+    <option name="LAST_COMMIT_MESSAGE" value="建立了基本数据库指令，可以添加或删除已知人员" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Package/data_modify.py" />
